@@ -1,0 +1,50 @@
+/* 
+    Created on : 18 jun. 2022, 4:30:42 p. m.
+    Author     : neury-dev
+*/
+
+.border_pane {
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-padding: 6 12 6 12;
+}
+.border_pane > .top {
+    -fx-alignment: CENTER_RIGHT;
+    -fx-min-width: 0;
+    -fx-min-height: 0;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-padding: 6;
+}
+.border_pane > .left {
+    -fx-alignment: CENTER;
+    -fx-pref-width: 0;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+}
+.border_pane > .center {
+    -fx-alignment: CENTER;
+    -fx-min-width: 0;
+    -fx-min-height: 0;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+}
+.border_pane > .right {
+    -fx-alignment: CENTER;
+    -fx-pref-width: 0;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+}
+.border_pane > .bottom {
+    -fx-alignment: CENTER;
+    -fx-min-width: 0;
+    -fx-min-height: 0;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+}

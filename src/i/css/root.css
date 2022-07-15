@@ -1,0 +1,84 @@
+/* 
+    Created on : Dec 2, 2019, 5:46:38 PM
+    Author     : neury
+*/
+.root {
+    -fx-text-fill: n-color-2;
+    -fx-fill: n-color-2;
+    -fx-background-color: n-color-1;
+    -fx-font-size: 12px;
+    
+    n-color-0:    transparent;
+    n-color-1:    #ffffff;
+    n-color-1-1:  rgba(255, 255, 255, 0.1);
+    n-color-1-2:  rgba(255, 255, 255, 0.2);
+    n-color-1-3:  rgba(255, 255, 255, 0.3);
+    n-color-1-4:  rgba(255, 255, 255, 0.4);
+    n-color-1-5:  rgba(255, 255, 255, 0.5);
+    n-color-1-6:  rgba(255, 255, 255, 0.6);
+    n-color-1-7:  rgba(255, 255, 255, 0.7);
+    n-color-1-8:  rgba(255, 255, 255, 0.8);
+    n-color-1-9:  rgba(255, 255, 255, 0.9);
+    n-color-2:    #4d4d4d;
+    n-color-2-1:  rgba(77, 77, 77, 0.1);
+    n-color-2-2:  rgba(77, 77, 77, 0.2);
+    n-color-2-3:  rgba(77, 77, 77, 0.3);
+    n-color-2-4:  rgba(77, 77, 77, 0.4);
+    n-color-2-5:  rgba(77, 77, 77, 0.5);
+    n-color-2-6:  rgba(77, 77, 77, 0.6);
+    n-color-2-7:  rgba(77, 77, 77, 0.7);
+    n-color-2-8:  rgba(77, 77, 77, 0.8);
+    n-color-2-9:  rgba(77, 77, 77, 0.9);
+    n-color-3:    #8f6e3d;
+    n-color-3-1:  rgba(143, 110, 61, 0.1);
+    n-color-3-2:  rgba(143, 110, 61, 0.2);
+    n-color-3-3:  rgba(143, 110, 61, 0.3);
+    n-color-3-4:  rgba(143, 110, 61, 0.4);
+    n-color-3-5:  rgba(143, 110, 61, 0.5);
+    n-color-3-6:  rgba(143, 110, 61, 0.6);
+    n-color-3-7:  rgba(143, 110, 61, 0.7);
+    n-color-3-8:  rgba(143, 110, 61, 0.8);
+    n-color-3-9:  rgba(143, 110, 61, 0.9);
+    n-color-4:    #8a8a8a;
+    n-color-4-1:  rgba(138, 138, 138, 0.1);
+    n-color-4-2:  rgba(138, 138, 138, 0.2);
+    n-color-4-3:  rgba(138, 138, 138, 0.3);
+    n-color-4-4:  rgba(138, 138, 138, 0.4);
+    n-color-4-5:  rgba(138, 138, 138, 0.5);
+    n-color-4-6:  rgba(138, 138, 138, 0.6);
+    n-color-4-7:  rgba(138, 138, 138, 0.7);
+    n-color-4-8:  rgba(138, 138, 138, 0.8);
+    n-color-4-9:  rgba(138, 138, 138, 0.9);
+    n-color-5:    #576600;
+    n-color-5-1:  rgba(87, 102, 0, 0.1);
+    n-color-5-2:  rgba(87, 102, 0, 0.2);
+    n-color-5-3:  rgba(87, 102, 0, 0.3);
+    n-color-5-4:  rgba(87, 102, 0, 0.4);
+    n-color-5-5:  rgba(87, 102, 0, 0.5);
+    n-color-5-6:  rgba(87, 102, 0, 0.6);
+    n-color-5-7:  rgba(87, 102, 0, 0.7);
+    n-color-5-8:  rgba(87, 102, 0, 0.8);
+    n-color-5-9:  rgba(87, 102, 0, 0.9);
+    n-color-6:    #94201e;
+    n-color-6-1:  rgba(148, 32, 30, 0.1);
+    n-color-6-2:  rgba(148, 32, 30, 0.2);
+    n-color-6-3:  rgba(148, 32, 30, 0.3);
+    n-color-6-4:  rgba(148, 32, 30, 0.4);
+    n-color-6-5:  rgba(148, 32, 30, 0.5);
+    n-color-6-6:  rgba(148, 32, 30, 0.6);
+    n-color-6-7:  rgba(148, 32, 30, 0.7);
+    n-color-6-8:  rgba(148, 32, 30, 0.8);
+    n-color-6-9:  rgba(148, 32, 30, 0.9);
+}
+
+.toggle-button, 
+.button, 
+.menu, 
+.menu-item, 
+.tab, 
+.list-cell, 
+.scroll-bar > .thumb, 
+.increment-button, 
+.decrement-button { 
+    -fx-cursor: hand; 
+}

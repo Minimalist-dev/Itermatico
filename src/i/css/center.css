@@ -1,0 +1,52 @@
+/* 
+    Created on : Dec 2, 2019, 4:56:53 PM
+    Author     : neury
+*/
+
+/* home
+--------------------------------------------------------------------------------*/
+.border_pane .center .grid {
+    -fx-alignment: CENTER;
+    -fx-vgap: 10;
+    -fx-hgap: 10;
+}
+.border_pane .center .grid .label {
+    -fx-wrap-text: true;
+}
+.border_pane .center .grid .h {
+    -fx-font-size: 24px;
+    -fx-fill: n-color-2;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+.border_pane .center .grid .button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-2;
+}
+.border_pane .center .grid .button:hover {
+    -fx-background-radius: 3em;
+}
+
+/* temas
+--------------------------------------------------------------------------------*/
+.border_pane .center .temas {
+    -fx-orientation: vertical;
+    -fx-vgap: 10;
+    -fx-hgap: 10;
+    
+    -fx-background-color: n-color-2-1;
+    -fx-background-radius: 0.25em;
+    -fx-background-insets: 12;
+    -fx-padding: 24;
+}
+.border_pane .center .temas .button {
+    -fx-text-fill: n-color-2;
+    -fx-background-color: n-color-0;
+    -fx-background-radius: 0.25em;
+    -fx-alignment: CENTER_LEFT;
+}
+.border_pane .center .temas .button:hover {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-2;
+    -fx-background-radius: 3em;
+}

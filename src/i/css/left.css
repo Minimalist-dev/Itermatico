@@ -1,0 +1,59 @@
+/* 
+    Created on : Dec 2, 2019, 4:56:41 PM
+    Author     : neury
+*/
+
+.border_pane .left .pane .grid {
+    -fx-pref-width: 250;
+    -fx-vgap: 10;
+    -fx-hgap: 10;
+}
+.border_pane .left .pane .grid .h {
+    -fx-fill: n-color-2;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+.border_pane .left .pane .grid .frase {
+    -fx-text-fill: n-color-2;
+    -fx-text-alignment: center;
+}
+.border_pane .left .pane .grid .text-field {
+    -fx-text-fill: n-color-2;
+    -fx-background-color: n-color-2-1;
+    -fx-alignment: BASELINE_LEFT;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .left .pane .grid .text-field:focused {
+    -fx-background-radius: 3em;
+}
+.border_pane .left .pane .grid .button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-2;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .left .pane .grid .verde:hover {
+    -fx-background-color: n-color-5;
+    -fx-background-radius: 3em;
+}
+.border_pane .left .pane .grid .rojo:hover {
+    -fx-background-color: n-color-6;
+    -fx-background-radius: 3em;
+}
+
+/* error
+--------------------------------------------------------------------------------*/
+#error {
+    -fx-fill: n-color-6;
+    -fx-font-weight: bold;
+}
+#error_null {
+    -fx-fill: n-color-2;
+    -fx-font-weight: bold;
+}

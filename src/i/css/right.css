@@ -1,0 +1,69 @@
+/* 
+    Created on : Dec 2, 2019, 4:57:04 PM
+    Author     : neury
+*/
+
+.border_pane .right .pane .grid {
+    -fx-alignment: CENTER;
+    -fx-pref-width: 250;
+    -fx-vgap: 10;
+    -fx-hgap: 10;
+}
+.border_pane .right .pane .grid .h {
+    -fx-fill: n-color-2;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+.border_pane .right .pane .grid .frase {
+    -fx-text-fill: n-color-2;
+    -fx-text-alignment: center;
+}
+.border_pane .right .pane .grid .text-field {
+    -fx-text-fill: n-color-2;
+    -fx-background-color: n-color-2-1;
+    -fx-alignment: BASELINE_LEFT;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .right .pane .grid .text-field:focused {
+    -fx-background-radius: 3em;
+}
+.border_pane .right .pane .grid .text-area { 
+    -fx-text-fill: n-color-2;
+    -fx-background-color: n-color-0;
+    -fx-background-radius: 0.25em;
+    -fx-prompt-text-fill: n-color-4;
+    -fx-wrap-text: true;
+    -fx-pref-width: 250;
+    -fx-pref-height: 100;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0; 
+    -fx-border-radius: 0.25em;
+    -fx-highlight-text-fill: n-color-1;
+    -fx-highlight-fill: n-color-2;
+    -fx-display-caret: true;
+}
+.border_pane .right .pane .grid .text-area .content {
+    -fx-background-color: n-color-2-1;
+    -fx-padding: 12;
+}
+.border_pane .right .pane .grid .button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-2;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .right .pane .grid .verde:hover {
+    -fx-background-color: n-color-5;
+    -fx-background-radius: 3em;
+}
+.border_pane .right .pane .grid .rojo:hover {
+    -fx-background-color: n-color-6;
+    -fx-background-radius: 3em;
+}

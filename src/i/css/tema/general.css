@@ -1,0 +1,94 @@
+/* 
+    Created on : 13 jul. 2022, 6:28:11 p. m.
+    Author     : neury-dev
+*/
+
+.border_pane .center .tema {
+    -fx-vgap: 6;
+    -fx-hgap: 6;
+    /*-fx-grid-lines-visible: true;*/
+    
+    -fx-background-color: n-color-1;
+    -fx-background-radius: 0.50em;
+    -fx-background-insets: 12;
+    -fx-alignment: CENTER_LEFT;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-4;
+    -fx-border-radius: 0.50em;
+    -fx-padding: 24;
+}
+.border_pane .center .tema .label {
+    -fx-text-fill: n-color-2;
+    -fx-font-weight: bold;
+}
+.border_pane .center .tema .text-field {
+    -fx-text-fill: n-color-2;
+    -fx-background-color: n-color-2-1;
+    -fx-alignment: BASELINE_LEFT;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .center .tema .text-field:focused {
+    -fx-background-radius: 3em;
+}
+.border_pane .center .tema .button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-2;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .center .tema .button:hover {
+    -fx-background-color: n-color-5;
+    -fx-background-radius: 3em;
+}
+.border_pane .center .tema .button.cerrar_tema {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-6;
+    -fx-font-weight: bold;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-0;
+    -fx-border-radius: 0.25em;
+}
+.border_pane .center .tema .uso {
+    -fx-text-fill: n-color-6;
+}
+
+/* Graficos 
+--------------------------------------------------------------------------------*/
+.chart {}
+.chart .chart-content { 
+    -fx-padding: 12px;
+}
+.chart .chart-title {
+    -fx-text-fill: n-color-2;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.chart .chart-pie {}
+.chart .default-color0.chart-pie { -fx-pie-color: n-color-2; }
+.chart .default-color1.chart-pie { -fx-pie-color: n-color-3; }
+/*.chart .default-color2.chart-pie { -fx-pie-color: n-color-2; }
+.chart .default-color3.chart-pie { -fx-pie-color: n-color-3; }*/
+.chart .chart-pie .chart-pie-label {
+    -fx-fill: n-colo-2;
+} 
+.chart .chart-pie .chart-pie-label-line {
+    -fx-fill: n-colo-1;
+    -fx-stroke: n-colo-1;
+}
+.chart .chart-legend {
+    -fx-background-color: n-color-2-1;
+    -fx-background-radius: 0.50em;
+    -fx-border: none;
+}
+.chart .chart-legend .chart-legend-item { 
+    -fx-font-size: 12px;
+}
+
+
